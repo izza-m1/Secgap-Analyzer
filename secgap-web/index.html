@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Security Gap Analyzer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<h1>🔐 Security Gap Analyzer</h1>
+
+<div class="container">
+    
+    <input type="text" id="urlInput" placeholder="Enter website URL">
+    <button onclick="runScan()">Scan Website</button>
+
+    <div id="scoreBox"></div>
+
+    <h2>Vulnerability Scan</h2>
+    <div id="vulnResults"></div>
+
+    <h2>Cookie Scan</h2>
+    <div id="cookieResults"></div>
+
+    <h2>Phishing Check</h2>
+    <div id="phishResults"></div>
+
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
